@@ -1,0 +1,30 @@
+.header {
+  padding: $gutter/2;
+  color: $gray-400;
+  grid-area: header;
+
+  &__logo {
+    margin: auto;
+    max-width: 200px;
+    background-color: $red;
+    height: 3rem;
+  }
+
+  &__menu {
+    @include media-breakpoint-up('sm') {
+      display: flex;
+    }
+    @extend %columns;
+
+    a {
+      color: $gray-600;
+      display: block;
+      text-align: center;
+
+      &:hover,
+      &:focus {
+        color: $white;
+      }
+    }
+  }
+}

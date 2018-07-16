@@ -1,0 +1,35 @@
+@import 'variables';
+@import '~@marsbased/marscss';
+
+@include marscss;
+
+@import 'header';
+
+
+
+body {
+  height: 100%;
+  background-color: $black;
+}
+
+.container {
+  min-height: 100%;
+  display: grid;
+  grid-template:
+    'header' auto
+    'content' 1fr
+    'footer' auto
+}
+
+.content {
+  padding: $gutter $gutter/2;
+  grid-area: content;
+  background-color: $white;
+  display: grid;
+}
+
+.footer {
+  padding: $gutter/2;
+  color: $gray-400;
+  grid-area: footer;
+}

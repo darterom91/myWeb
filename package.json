@@ -1,0 +1,19 @@
+{
+  "name": "myWeb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "David Artero Martin",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@marsbased/marscss": "^0.6.1"
+  },
+  "devDependencies": {
+    "@marsbased/marstyle-stylelint": "^0.2.0",
+    "node-sass": "^4.9.2"
+  }
+}

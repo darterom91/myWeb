@@ -1,0 +1,26 @@
+<div class="parteA">
+    <div class="header">
+      <img src="imagenes/marvel/marvel.jpg" alt="Marvel">
+      <div class="nav">
+        <a href=""><img src="imagenes/marvel/capitaneamerica.png" alt=""></a>
+        <a href=""><img src="imagenes/marvel/ironman.png" alt=""></a>
+        <a href=""><img src="imagenes/marvel/thor.png" alt=""></a>
+        <a href=""><img src="imagenes/marvel/hulk.png" alt=""></a>
+        <a href=""><img src="imagenes/marvel/spiderman.png" alt=""></a>
+        <a href=""><img src="imagenes/marvel/logan.png" alt=""></a>
+      </div>
+    <div class="content">content</div>
+    <div class="footer">footer</div>
+  </div>
+  <div class="parteB">
+
+    <div class="header">
+      <img src="imagenes/dc/dcComics.jpg" alt="DC comics">
+      <div class="nav">
+          <li class="superman"><a href="#"><img src="imagenes/dc/superman.png" alt="superman"></a></li>
+          <li class="batman"><a href="#"><img src="imagenes/dc/batman.png" alt="batman"></a></li>
+          <li class="greenLantern"><a href="#"><img src="imagenes/dc/greenLantern.png" alt="green lantern"></a></li>
+          <li class="wonderwoman"><a href="#"><img src="imagenes/dc/wonderwoman.png" alt="wonder woman"></a></li>
+          <li class="flash"><a href="#"><img src="imagenes/dc/flash.png" alt="flash"></a></li>
+          <li class="aquaman"><a href=""><img src="imagenes/dc/aquaman.png" alt="aquaman"></a></li>
+    </div>
