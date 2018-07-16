@@ -4,10 +4,10 @@
   grid-area: header;
 
   &__logo {
-    margin: auto;
     max-width: 200px;
-    background-color: $red;
     height: 3rem;
+    margin: auto;
+    background-color: $red;
   }
 
   &__menu {
@@ -17,8 +17,8 @@
     @extend %columns;
 
     a {
-      color: $gray-600;
       display: block;
+      color: $gray-600;
       text-align: center;
 
       &:hover,

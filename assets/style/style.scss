@@ -5,27 +5,25 @@
 
 @import 'header';
 
-
-
 body {
   height: 100%;
   background-color: $black;
 }
 
 .container {
-  min-height: 100%;
   display: grid;
+  min-height: 100%;
   grid-template:
     'header' auto
     'content' 1fr
-    'footer' auto
+    'footer' auto;
 }
 
 .content {
-  padding: $gutter $gutter/2;
-  grid-area: content;
-  background-color: $white;
   display: grid;
+  padding: $gutter $gutter/2;
+  background-color: $white;
+  grid-area: content;
 }
 
 .footer {
